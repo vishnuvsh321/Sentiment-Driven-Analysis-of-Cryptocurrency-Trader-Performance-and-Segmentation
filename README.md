@@ -30,7 +30,7 @@ This project analyzes how market sentiment (Fear & Greed Index) influences crypt
 5. **Trader Segmentation** - Group traders by size, consistency, frequency, profitability
 6. **Predictive Modeling** - Train Random Forest to forecast next-day profitability
 
-## 📁 Dataset and Sources
+## 📝 Dataset and Sources
 
 This project requires two datasets. Due to file size, the data is not stored directly in this repository.
 
@@ -38,6 +38,12 @@ This project requires two datasets. Due to file size, the data is not stored dir
 |------|--------|------|---------|-------------|
 | `fear_greed_index.csv` | [Download Link](https://drive.google.com/file/d/13tEyGJHFmbS681dqVLCMT14R_P9C0YJJ/view?usp=sharing) | ~91 KB | 2,644 |Daily Fear & Greed Index scores (2018-2024) |
 | `historical_data.csv` | [Download Link](https://drive.google.com/file/d/11oCEgbga9pDYmhoTlC8asQVbCv_pXNb9/view?usp=sharing) | ~47.5 MB | 211,224 | Individual trade records with PnL, size, side, etc. |
+
+## 📂 Files in this repository
+- `notebook.ipynb` : Jupyter Notebook File.
+- `summary_and_key_findings.pdf`: Summary and key findings of the project.
+- `requirements.txt` : Python dependencies for the notebook.
+- `README.md` : Project overview.
 
 ## 🚀 Getting Started
 
