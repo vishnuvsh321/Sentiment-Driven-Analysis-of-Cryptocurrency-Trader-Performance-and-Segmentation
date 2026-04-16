@@ -30,12 +30,14 @@ This project analyzes how market sentiment (Fear & Greed Index) influences crypt
 5. **Trader Segmentation** - Group traders by size, consistency, frequency, profitability
 6. **Predictive Modeling** - Train Random Forest to forecast next-day profitability
 
-## 📁 Dataset
+## 📁 Dataset and Sources
 
-| File | Records | Description |
-|------|---------|-------------|
-| `fear_greed_index.csv` | 2,644 | Daily Fear & Greed Index scores (2018-2024) |
-| `historical_data.csv` | 211,224 | Individual trade records with PnL, size, side, etc. |
+This project requires two datasets. Due to file size, the data is not stored directly in this repository.
+
+| File | Source | Size | Records |Description |
+|------|--------|------|---------|-------------|
+| `fear_greed_index.csv` | [Download Link](https://drive.google.com/file/d/13tEyGJHFmbS681dqVLCMT14R_P9C0YJJ/view?usp=sharing) | ~91 KB | 2,644 |Daily Fear & Greed Index scores (2018-2024) |
+| `historical_data.csv` | [Download Link](https://drive.google.com/file/d/11oCEgbga9pDYmhoTlC8asQVbCv_pXNb9/view?usp=sharing) | ~47.5 MB | 211,224 | Individual trade records with PnL, size, side, etc. |
 
 ## 🚀 Getting Started
 
@@ -43,3 +45,8 @@ This project analyzes how market sentiment (Fear & Greed Index) influences crypt
 
 ```bash
 pip install -r requirements.txt
+```
+
+### Clone this repository:
+   ```bash
+   git clone [https://github.com/vishnuvsh321/Sentiment-Driven-Analysis-of-Cryptocurrency-Trader-Performance-and-Segmentation]
